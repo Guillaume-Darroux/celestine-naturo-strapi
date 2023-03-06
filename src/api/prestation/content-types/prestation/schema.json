@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestations",
+  "info": {
+    "singularName": "prestation",
+    "pluralName": "prestations",
+    "displayName": "prestations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "duration": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "calendly": {
+      "type": "string"
+    }
+  }
+}
